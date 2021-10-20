@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #bbbbbb;
+    color: #303030;
+    background: url(https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg)  no-repeat center center fixed; 
+    background-size: cover;
+    padding: 40px;
+}
+
+#title1 {
+    text-align: center;
+    border-style: hidden;
+}
+
+#title1 h1 {
+    font-size: 40px;
+    color: #dadada;
+    text-shadow: 3px 3px black;
+    margin-bottom: -23px;
+    border-style: hidden;
+}
+#title1 p {
+    font-size: 25px;
+    color: #dadada;
+    text-shadow: 3px 3px black;
+    padding-bottom: 30px;
+}
+
+form {
+    background-color: #f5f5f5e5;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 2em 2em 2em 1em;
+    border: 8px ridge #ccc;
+    border-radius: 0.3em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+input {
+    display:inline-block;
+    box-sizing: content-box;
+}
+
+input #idk, #email, #number, #name {
+    width:240px !important;
+}
+
+.button {
+
+    text-align: center;
+}
+
+.survey {
+    box-sizing: border-box;
+}
+
+form li + li {
+    margin-top: 1.2em;
+}
+
+textarea {
+    width: 240px;
+    height: 80px;
+}
+
+select {
+    width: 170px;
+}
+
+
+fieldset {
+    border-style: outset;
+    /*height: 80px;
+    width: 120px;
+    margin: 20px;
+    padding: 3px;*/
+    display: inline-block;
+    border-width: 8px;
+    box-sizing: border-box;
+}
+
+#msg-text {
+    vertical-align: top !important;
+}
+
+select {
+    width:250px;
+}
+
+.check {
+    width: 410px;
+}
+
+.check label{
+  width: 90%;  
+  text-align: left;
+}

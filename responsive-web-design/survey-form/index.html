@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <base href="https://shuizuan.github.io/freeCodeCamp/responsive-web-design/survey-form/index.html">
+    <title>freeCodeCamp: Survey Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+    <div id="title1">
+            <h1 id="title">fCC: Survey Form</h1>
+            <p id="description">Tell us more about your favorite oldie Windows edition!</p> 
+    </div>
+    <div id="survey">
+        <form id="survey-form">
+            <ul>
+                <li>
+                   <label id="name-label" for="name">Name</label> 
+                    <input type="text" id="name" name="full_name" placeholder="Enter your full name." required>
+                </li>
+                <li>
+                    <label id="email-label" for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your e-mail." required>
+                </li>
+                <li>
+                    <label id="number-label" for="number">Age</label>
+                    <input type="number" id="number" name="number" placeholder="Enter your age." min="1" max="150" required>
+                </li>
+                <li>
+                    <label for="dropdown">Your first OS?</label>
+                    <select name="dropdown" id="dropdown" required>
+                        <option value="2000">Windows 2000 and previous</option>
+                        <option value="xp">Windows XP</option>
+                        <option value="vista">Windows Vista</option>
+                        <option value="seven">Windows Seven</option>
+                        <option value="eight">Windows 8 and 8.1</option>
+                        <option value="ten">Windows 10</option>
+                        <option value="eleven">Windows 11</option>
+                    </select>
+                </li>
+                <li>
+                    <fieldset class="radiobox">
+                        <legend>What is your favorite UX design?</legend>
+                        <label for="aero">Aero</label>
+                        <input type="radio" name="radio" id="aero" value="aero">
+                        <label for="metro">Metro</label>
+                        <input type="radio" name="radio" id="metro" value="metro"> <br>
+                        <label for="luna">Luna (XP)</label>
+                        <input type="radio" name="radio" id="luna" value="luna">
+                        <label for="classic">Classic</label>
+                        <input type="radio" name="radio" id="classic" value="classic">
+                    </fieldset>
+                </li>
+                <li>
+                    <fieldset class="check">
+                        <legend>What Virtual assistant do you use?</legend>
+                        <label for="cortana">Cortana</label>
+                        <input type="checkbox" name="checkbox" id="cortana" value="Cortana">
+                        <label for="siri">Siri</label>
+                        <input type="checkbox" name="checkbox" id="siri" value="Siri"> <br>
+                        <label for="alexa">Alexa</label>
+                        <input type="checkbox" name="checkbox" id="alexa" value="Alexa">
+                        <label for="google">Google Assistant</label>
+                        <input type="checkbox" name="checkbox" id="google" value="Google"> <br>
+                        <label for="others">Others</label>
+                        <input type="checkbox" name="checkbox" id="others" value="Others">
+                    </fieldset>
+                </li>
+                <li>
+                    <label id="msg-text" for="msg">Anything else?</label>
+                    <textarea id="msg" name="message" placeholder="If you have anything else to say, please write it down here! :)"></textarea>
+                </li>
+                    <li class="button">
+                    <button id="submit" type="submit">Submit!</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+</body>

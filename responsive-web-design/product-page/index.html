@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <base href="https://shuizuan.github.io/freeCodeCamp/responsive-web-design/product-page/index.html">
+    <title>freeCodeCamp: Product Landing Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div class="block" id="logo">
+                <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.png" id="header-img" alt="logo-pic" width="45px">
+            </div>
+            <div class="block" id="title">product page</div>
+            <nav class="block" id="nav-bar">
+                <nav id="navbar">
+                    <ul>
+                        <li class="hidden" >
+                            <a class="nav-link" href="#description">description</a>
+                        </li>
+                        <li class="hidden">
+                            <a class="nav-link" href="#media">media</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" id="pop-nav" href="#newsletter">newsletter</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <div id="main">
+            <div class="block" id="left">
+                <div id="left-description">
+                    <div>
+                        <h2 id="description">about the product.</h2>
+                        <video id="video" controls>
+                            <source src="https://test.mp4" type="video/mp4">
+                        </video>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet pharetra lorem, non sagittis purus fringilla maximus. Fusce ut lectus nisi. Fusce eleifend tempus orci, sed molestie leo lobortis eu. Ut eget venenatis risus. Nam odio nisi, sodales nec varius a, gravida non mi. Fusce ultrices, est et pulvinar fringilla, nunc metus consequat ipsum, ultrices interdum elit erat eu justo. Maecenas in efficitur urna, ac malesuada dui. Aenean tellus leo, gravida id ex in, pellentesque ultricies justo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="block" id="right">
+                <div class="test">
+                    <div id="media">
+                        <div id="pictures">
+                            <h2>media.</h2>
+                            <div id="pic-box-grid">
+                                <div class="medium-img">
+                                    <img class="medium-img" src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&">
+                                </div>
+                                <div class="small-img">
+                                    <img class="small-img" src="https://images.unsplash.com/photo-1588097281266-310cead47879?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1">
+                                </div>
+                                <div class="small-img1">
+                                    <img class="small-img" src="https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8">
+                                </div>
+                                <div class="tall-img">
+                                    <img class="tall-img" src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action=“https://www.freecodecamp.com/email-submit” id="form">
+                <ul>
+                    <li>
+                        <div id="newsletter">
+                            <div class="popup-content">
+                                <div class="popform">
+                                    <div class="test2">
+                                    <label id="email-label" for="label">
+                                            <h1>subscribe to our <br>newsletter!</h1>
+                                            <p>Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Vivamus malesuada justo quis justo tincidunt feugiat. Vivamus congue eros arcu, eu pretium lacus efficitur quis. Mauris ligula nisl, interdum nec congue non, interdum eff icitur mi. Ut metus dolor.
+                                            </p>
+                                        </label>
+                                            <input type="email" id="email" name="email" placeholder="Enter your e-mail." required>
+                                            <input type="submit" id="submit" value="send">
+                                    </div>
+                                </div>
+                                <a href="#" class="close-popup">&times;</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
